@@ -1,0 +1,189 @@
+.main{
+    max-width: 90%;
+    margin: auto;
+ }
+.navbar{
+    margin-top: 20px;
+}
+.first{
+    margin-top: 80px;
+}
+h1{
+    text-align: start;
+}
+p{
+    margin: 50px 0;
+    text-align: start;
+}
+.btn{
+    /* align-items: start; */
+    margin-bottom: 10px;
+}
+/* .hero-img{
+    margin-top: 20px;
+} */
+.second{
+   background-color: #FAFAFA;
+   padding: 50px 15px;
+   margin-top: 70px;
+}
+img{max-width: 100%;}
+.navbar-brand {
+    position: relative;}
+    .navbar-brand::before{
+    content:"";
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(image/bg\ style.png);
+    position: absolute;
+    top: -50px;
+   left: -75px;
+    z-index: -1}
+
+    .sd {
+        position: relative;}
+        .sd::before{
+        content:"";
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        background-image: url(image/Scroll\ down\ arrow.png);
+        position: absolute;
+        top: 50px;
+        left: -190px;
+    
+    }
+
+    .third{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+ .bg-style{
+    position: relative;}
+    .bg-style::before{
+    content:"";
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-image: url(image/bg\ style\ 2.png);
+    position: absolute;
+     top: -90px;
+     left: 20px;
+    }
+    
+    
+    .container-3{
+        max-width: 90%;
+        margin: auto;
+    }
+    .row-2{
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .col1{
+        grid-row-start: 1;
+       grid-row-end:3 ;
+    }
+.btn-3{
+    background-color: #62AC43;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-right: 8px;
+   padding-left: 8px;
+   text-decoration: none;
+   color: #FAFAFA;
+   margin-top: 15px;
+   
+}
+
+.bg-style-2{
+    margin-top: 30px;
+    position: relative;}
+    .bg-style-2::before{
+    content:"";
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(image/bg\ style\ 2.png);
+    position: absolute;
+     top: -60px;
+     /* left: -60px; */
+     right: 80px;}
+     .fourth{
+        margin-top: 50px;
+       
+     }
+     .fifth{
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+     }
+     .destinations-card{
+        width: 375px;
+        height: 570px;
+     }
+   
+   .icons{
+    display: flex;
+    gap: 10px;
+    margin-top: -50px;
+}
+.why-us{
+    margin-top: 80px;
+}
+.bg-style-3{
+    position: relative;}
+    .bg-style-3::before{
+    content:"";
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    background-image: url(image/bg\ style\ 2.png);
+    position: absolute;
+     top: -45px;
+     left: -10px;
+    }
+
+ .eighth{
+    margin-top: 60px;
+ }
+    
+ .why-us-img{
+    width: 98px;
+    height: 98px;
+ }
+ .why-us-card{
+    width: 370px;
+height: 480px;
+ }
+ .arrow{
+    margin-top: 40px;
+    margin-bottom: 60px;
+ }
+ footer{
+    background-color: #313131;
+ }
+.newsletter{
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.subscribe{
+    margin: 30px auto;
+}
+
+@media(max-width:604px){
+    .login{
+        display: none;
+    }
+    .destinations-card{
+        width: 375px;
+        height: 590px;
+     }
+     .why-us-card{
+        width: 370px;
+    height: 430px;
+     }
+ }
